@@ -83,6 +83,7 @@
             display: grid;
             grid-template-columns: repeat(var(--${prefix}-columns), [col-start] 1fr);
             gap: var(--${prefix}-gap);
+            pointer-events: none;
         }
 
         .${prefix}-col {
